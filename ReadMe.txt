@@ -1,5 +1,6 @@
-git init
-git add README.md
-git commit -m "first commit"
-git remote add origin https://github.com/emilyhmarkowitz/NOAAFisheriesComms.git
-git push -u origin master
+
+Adding Favicon to NOAA Website:
+
+    title = tags$head(tags$link(rel="shortcut icon", 
+                                href="https://www.noaa.gov/sites/all/themes/custom/noaa/favicon.ico", 
+                                type="image/vnd.microsoft.icon"))), 
